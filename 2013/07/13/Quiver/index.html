@@ -1,0 +1,977 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Makedown,Quiver," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="quiver
+整洁
+内容正确
+内容全面
+可以在 finder 里面 直接复制 文件名 就可以 在quiver 中使用。
+有零散的笔记，零时笔记，都放入，  Inbox 里面。以后慢慢 整理成体系 ， Inbox 应该是最重初的内容，也应该是最多的笔记。切记。 
+课堂笔 记 ， 都应该放入 inbox 里面. 
+
+
+ ##个人整理笔记布局方法，把每一个cell看作是 单一功能的函数好好，利用锚点定位">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Quiver画流程图">
+<meta property="og:url" content="http://xx./2013/07/13/Quiver/index.html">
+<meta property="og:site_name" content="jiexieshede的网络空间">
+<meta property="og:description" content="quiver
+整洁
+内容正确
+内容全面
+可以在 finder 里面 直接复制 文件名 就可以 在quiver 中使用。
+有零散的笔记，零时笔记，都放入，  Inbox 里面。以后慢慢 整理成体系 ， Inbox 应该是最重初的内容，也应该是最多的笔记。切记。 
+课堂笔 记 ， 都应该放入 inbox 里面. 
+
+
+ ##个人整理笔记布局方法，把每一个cell看作是 单一功能的函数好好，利用锚点定位">
+<meta property="og:image" content="https://jiexishede.github.io/source/0FDF210F89292BD539B07866AB261EF2.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/F743FC9742DD9DFAE66ECA737FE53846.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/B655C8396609C7EA23277DCB42B1EA97.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/FAB2BF176649ABA837890641DD7AA21D.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/E7A08B5D4EF13FBDFC6883C7F6A8227E.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/54FF87F96C9EDC82061512F8FD8757A9.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/7BF0CBB3C4CCE929221A79494ED9BBAE.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/7053A9ECF0879B81EAEC3C8F28EFDFE6.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/FDF2644E264A0926A860A0DD085A2A8B.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/C8C96335A2A4355FCC1C74D2C09D6061.png">
+<meta property="og:image" content="https://jiexishede.github.io/source/321468FEE9F653BBC280A5B143E78370.png">
+<meta property="og:updated_time" content="2016-07-19T13:49:46.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="使用Quiver画流程图">
+<meta name="twitter:description" content="quiver
+整洁
+内容正确
+内容全面
+可以在 finder 里面 直接复制 文件名 就可以 在quiver 中使用。
+有零散的笔记，零时笔记，都放入，  Inbox 里面。以后慢慢 整理成体系 ， Inbox 应该是最重初的内容，也应该是最多的笔记。切记。 
+课堂笔 记 ， 都应该放入 inbox 里面. 
+
+
+ ##个人整理笔记布局方法，把每一个cell看作是 单一功能的函数好好，利用锚点定位">
+<meta name="twitter:image" content="https://jiexishede.github.io/source/0FDF210F89292BD539B07866AB261EF2.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://xx./2013/07/13/Quiver/"/>
+
+  <title> 使用Quiver画流程图 | jiexieshede的网络空间 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?95975f7178a9d0823d400d59c70f6abd";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">jiexieshede的网络空间</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-tags " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                使用Quiver画流程图
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-07-13T20:46:25+08:00" content="2013-07-13">
+              2013-07-13
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="quiver"><a href="#quiver" class="headerlink" title="quiver"></a>quiver</h2><ol>
+<li>整洁</li>
+<li>内容正确</li>
+<li><p>内容全面</p>
+<p>可以在 finder 里面 直接复制 文件名 就可以 在quiver 中使用。</p>
+<h2 id="有零散的笔记，零时笔记，都放入，-Inbox-里面。"><a href="#有零散的笔记，零时笔记，都放入，-Inbox-里面。" class="headerlink" title="有零散的笔记，零时笔记，都放入，  Inbox 里面。"></a>有零散的笔记，零时笔记，都放入，  <strong>Inbox 里面。</strong></h2><p>以后慢慢 整理成体系 ， Inbox 应该是最重初的内容，也应该是最多的笔记。<br>切记。 </p>
+<p>课堂笔 记 ， 都应该放入 inbox 里面. </p>
+</li>
+</ol>
+<p> ##<strong>个人整理笔记布局方法，把每一个cell看作是 单一功能的函数好好，利用锚点定位，有利于以后整理，可读性是第一位的。</strong></p>
+<p> #MWeb  排名  appshoper</p>
+<p> <img src="https://jiexishede.github.io/source/0FDF210F89292BD539B07866AB261EF2.png" alt="2016-06-18 at 11.49 AM.png"></p>
+<p> <img src="https://jiexishede.github.io/source/F743FC9742DD9DFAE66ECA737FE53846.png" alt="2016-06-18 at 11.50 AM.png"></p>
+<h3 id="markdown-syntax"><a href="#markdown-syntax" class="headerlink" title="markdown syntax"></a>markdown syntax</h3><p><a href="https://www.zybuluo.com/flankchen/note/28313#7-流程图" target="_blank" rel="external">Cmd Markdown 简明语法手册</a></p>
+<p> #<mark> 加 <strong>Tag</strong></mark></p>
+<p> 输入文字后按回车就能加标签 tag. </p>
+<p> <img src="https://jiexishede.github.io/source/B655C8396609C7EA23277DCB42B1EA97.png" alt="2016-06-25 at 8.47 AM.png"></p>
+<p> <img src="https://jiexishede.github.io/source/FAB2BF176649ABA837890641DD7AA21D.png" alt="2016-06-25 at 8.53 AM.png"></p>
+<p> <img src="https://jiexishede.github.io/source/E7A08B5D4EF13FBDFC6883C7F6A8227E.png" alt="2016-06-25 at 9.26 AM.png"></p>
+<p>#颜色控制</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div><div class="line">151</div><div class="line">152</div><div class="line">153</div><div class="line">154</div><div class="line">155</div><div class="line">156</div><div class="line">157</div><div class="line">158</div><div class="line">159</div><div class="line">160</div><div class="line">161</div><div class="line">162</div><div class="line">163</div><div class="line">164</div><div class="line">165</div><div class="line">166</div><div class="line">167</div><div class="line">168</div><div class="line">169</div><div class="line">170</div><div class="line">171</div><div class="line">172</div><div class="line">173</div><div class="line">174</div><div class="line">175</div><div class="line">176</div><div class="line">177</div><div class="line">178</div><div class="line">179</div><div class="line">180</div><div class="line">181</div><div class="line">182</div><div class="line">183</div><div class="line">184</div><div class="line">185</div><div class="line">186</div><div class="line">187</div><div class="line">188</div><div class="line">189</div><div class="line">190</div><div class="line">191</div><div class="line">192</div><div class="line">193</div><div class="line">194</div><div class="line">195</div><div class="line">196</div><div class="line">197</div><div class="line">198</div><div class="line">199</div><div class="line">200</div><div class="line">201</div><div class="line">202</div><div class="line">203</div><div class="line">204</div><div class="line">205</div><div class="line">206</div><div class="line">207</div><div class="line">208</div><div class="line">209</div><div class="line">210</div><div class="line">211</div><div class="line">212</div><div class="line">213</div><div class="line">214</div><div class="line">215</div><div class="line">216</div><div class="line">217</div><div class="line">218</div><div class="line">219</div><div class="line">220</div><div class="line">221</div><div class="line">222</div><div class="line">223</div><div class="line">224</div><div class="line">225</div><div class="line">226</div><div class="line">227</div><div class="line">228</div><div class="line">229</div><div class="line">230</div><div class="line">231</div><div class="line">232</div><div class="line">233</div><div class="line">234</div><div class="line">235</div><div class="line">236</div><div class="line">237</div><div class="line">238</div><div class="line">239</div><div class="line">240</div><div class="line">241</div><div class="line">242</div><div class="line">243</div><div class="line">244</div><div class="line">245</div><div class="line">246</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  "mainWindow": &#123;</div><div class="line">    "divider": &#123;</div><div class="line">      "topColor": "#576071",</div><div class="line">      "middleColor": "#576071",</div><div class="line">      "bottomColor": "#576071"</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line">  "sidebar": &#123;</div><div class="line">    "topBar": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "bottomBorderColor": "#434a58",</div><div class="line">      "segmentedControl": &#123;</div><div class="line">        "tintColor": "#dcdfe5",</div><div class="line">        "borderWidth": 1,</div><div class="line">        "borderRadius": 3</div><div class="line">      &#125;</div><div class="line">    &#125;,</div><div class="line">    "table": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "textColor": "#ccc",</div><div class="line">      "selectedTextColor": "#fff",</div><div class="line">      "emphasizedTextColor": "#eee",</div><div class="line">      "iconColor": "#aaa",</div><div class="line">      "selectedIconColor": "#fff",</div><div class="line">      "emphasizedIconColor": "#eee",</div><div class="line">      "selectedRowBgColor": "#3a404d",</div><div class="line">      "emphasizedRowBgColor": "#3a404d"</div><div class="line">    &#125;,</div><div class="line">    "bottomBar": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "topBorderColor": "#434a58",</div><div class="line">      "textColor": "#ccc",</div><div class="line">      "controlColor": "#ccc",</div><div class="line">      "pressedControlColor": "#fff"</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line">  "noteList": &#123;</div><div class="line">    "topBar": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "bottomBorderColor": "#434a58",</div><div class="line">      "controlColor": "#aaa",</div><div class="line">      "pressedControlColor": "#fff"</div><div class="line">    &#125;,</div><div class="line">    "tableHeader": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "bottomBorderColor": "#576071",</div><div class="line">      "controlColor": "#aaa",</div><div class="line">      "pressedControlColor": "#fff"</div><div class="line">    &#125;,</div><div class="line">    "table": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "separatorColor": "#576071",</div><div class="line">      "textColor": "#ccc",</div><div class="line">      "selectedTextColor": "#fff",</div><div class="line">      "emphasizedTextColor": "#eee",</div><div class="line">      "detailColor": "#999",</div><div class="line">      "selectedDetailColor": "#999",</div><div class="line">      "emphasizedDetailColor": "#eee",</div><div class="line">      "iconColor": "#999",</div><div class="line">      "selectedIconColor": "#999",</div><div class="line">      "emphasizedIconColor": "#eee",</div><div class="line">      "rowBgColor": "#434a58",</div><div class="line">      "altRowBgColor": "#434a58",</div><div class="line">      "selectedRowBgColor": "#3a404d",</div><div class="line">      "emphasizedRowBgColor": "#3a404d",</div><div class="line">      "draggedRowBgColor": "#3a404d",</div><div class="line">      "emptyTextColor": "#999"</div><div class="line">    &#125;,</div><div class="line">    "bottomBar": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "searchField": &#123;</div><div class="line">        "textColor": "#ccc",</div><div class="line">        "controlColor": "#ccc",</div><div class="line">        "pressedControlColor": "#fff",</div><div class="line">        "backgroundColor": "#434a58",</div><div class="line">        "borderColor": "#576071",</div><div class="line">        "placeholderColor": "#999"</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line">  "noteView": &#123;</div><div class="line">    "backgroundColor": "#393f4b",</div><div class="line">    "dividerColor": "#576071",</div><div class="line">    "topBar": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "bottomBorderColor": "#576071",</div><div class="line">      "controlColor": "#ccc",</div><div class="line">      "pressedControlColor": "#fff",</div><div class="line">      "segmentedControl": &#123;</div><div class="line">        "tintColor": "#dcdfe5",</div><div class="line">        "borderWidth": 1,</div><div class="line">        "borderRadius": 3</div><div class="line">      &#125;</div><div class="line">    &#125;,</div><div class="line">    "toolbar": &#123;</div><div class="line">      "backgroundColor": "#393f4b",</div><div class="line">      "dividerColor": "#4d535d",</div><div class="line">      "middleDividerColor": "#393f4b",</div><div class="line">      "controlColor": "#aaa",</div><div class="line">      "pressedControlColor": "#fff",</div><div class="line">      "iconColor": "#aaa",</div><div class="line">      "textColor": "#999",</div><div class="line">      "popUpButton": &#123;</div><div class="line">        "titleColor": "#c7c7c7",</div><div class="line">        "borderColor": "#434a58"</div><div class="line">      &#125;,</div><div class="line">      "tagField": &#123;</div><div class="line">        "textColor": "#ccc",</div><div class="line">        "placeholderColor": "#999",</div><div class="line">        "tag": &#123;</div><div class="line">          "textColor": "#ccc",</div><div class="line">          "selectedTextColor": "#fff",</div><div class="line">          "backgroundColor": "#576071",</div><div class="line">          "selectedBackgroundColor": "#576071",</div><div class="line">          "borderRadius": 2</div><div class="line">        &#125;</div><div class="line">      &#125;,</div><div class="line">      "formatBar": &#123;</div><div class="line">        "controlColor": "#576071",</div><div class="line">        "highlightColor": "#fff"</div><div class="line">      &#125;,</div><div class="line">      "searchField": &#123;</div><div class="line">        "textColor": "#999",</div><div class="line">        "controlColor": "#ccc",</div><div class="line">        "pressedControlColor": "#fff",</div><div class="line">        "backgroundColor": "#393f4b",</div><div class="line">        "borderColor": "#4d535d",</div><div class="line">        "placeholderColor": "#999"</div><div class="line">      &#125;,</div><div class="line">      "doneButton": &#123;</div><div class="line">        "textColor": "#a5a5a5",</div><div class="line">        "highlightBackgroundColor": "#3a3a3a",</div><div class="line">        "borderColor": "#4d535d"</div><div class="line">      &#125;</div><div class="line">    &#125;,</div><div class="line">    "bottomBar": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "controlColor": "#aaa",</div><div class="line">      "pressedControlColor": "#fff"</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line">  "multiNote": &#123;</div><div class="line">    "backgroundColor": "#343a40",</div><div class="line">    "textColor": "#fff",</div><div class="line">    "button": &#123;</div><div class="line">      "tintColor": "#3a404d",</div><div class="line">      "highlightColor": "#1F1F1F",</div><div class="line">      "backgroundColor": "#dcdfe5",</div><div class="line">      "highlightBackgroundColor": "#D2D3D3",</div><div class="line">      "borderColor": "#dcdfe5",</div><div class="line">      "highlightBorderColor": "#dcdfe5"</div><div class="line">    &#125;,</div><div class="line">    "tagField": &#123;</div><div class="line">      "textColor": "#ccc",</div><div class="line">      "placeholderColor": "#999",</div><div class="line">      "backgroundColor": "#31373d",</div><div class="line">      "borderColor": "#434a58",</div><div class="line">      "borderRadius": 2,</div><div class="line">      "tag": &#123;</div><div class="line">        "textColor": "#ccc",</div><div class="line">        "selectedTextColor": "#fff",</div><div class="line">        "backgroundColor": "#576071",</div><div class="line">        "selectedBackgroundColor": "#576071",</div><div class="line">        "borderRadius": 2</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line">  "notebookPicker": &#123;</div><div class="line">    "backgroundColor": "#434a58",</div><div class="line">    "textColor": "#fff",</div><div class="line">    "dividerColor": "#576071",</div><div class="line">    "searchField": &#123;</div><div class="line">      "textColor": "#ccc",</div><div class="line">      "controlColor": "#999",</div><div class="line">      "pressedControlColor": "#fff",</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "borderColor": "#576071",</div><div class="line">      "placeholderColor": "#999"</div><div class="line">    &#125;,</div><div class="line">    "table": &#123;</div><div class="line">      "textColor": "#ccc",</div><div class="line">      "selectedTextColor": "#fff",</div><div class="line">      "emphasizedTextColor": "#eee",</div><div class="line">      "iconColor": "#ccc",</div><div class="line">      "selectedIconColor": "#fff",</div><div class="line">      "emphasizedIconColor": "#eee",</div><div class="line">      "selectedRowBgColor": "#3a404d",</div><div class="line">      "emphasizedRowBgColor": "#3a404d",</div><div class="line">      "emptyTextColor": "#ccc"</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line">  "searchView": &#123;</div><div class="line">    "backgroundColor": "#434a58",</div><div class="line">    "searchField": &#123;</div><div class="line">      "textColor": "#fff",</div><div class="line">      "controlColor": "#999",</div><div class="line">      "pressedControlColor": "#999",</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "borderColor": "#576071",</div><div class="line">      "placeholderColor": "#999"</div><div class="line">    &#125;,</div><div class="line">    "tableHeader": &#123;</div><div class="line">      "backgroundColor": "#434a58",</div><div class="line">      "topBorderColor": "#434a58",</div><div class="line">      "bottomBorderColor": "#576071",</div><div class="line">      "textColor": "#576071",</div><div class="line">      "controlColor": "#999",</div><div class="line">      "pressedControlColor": "#fff"</div><div class="line">    &#125;,</div><div class="line">    "table": &#123;</div><div class="line">      "separatorColor": "#576071",</div><div class="line">      "textColor": "#ccc",</div><div class="line">      "selectedTextColor": "#fff",</div><div class="line">      "emphasizedTextColor": "#eee",</div><div class="line">      "detailColor": "#999",</div><div class="line">      "selectedDetailColor": "#ddd",</div><div class="line">      "emphasizedDetailColor": "#eee",</div><div class="line">      "iconColor": "#999",</div><div class="line">      "selectedIconColor": "#ddd",</div><div class="line">      "emphasizedIconColor": "#eee",</div><div class="line">      "rowBgColor": "#434a58",</div><div class="line">      "altRowBgColor": "#434a58",</div><div class="line">      "selectedRowBgColor": "#3a404d",</div><div class="line">      "emphasizedRowBgColor": "#3a404d",</div><div class="line">      "emptyTextColor": "#ccc"</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line">  "presentation": &#123;</div><div class="line">    "backgroundColor": "#393f4b"</div><div class="line">  &#125;,</div><div class="line">  "editor": &#123;</div><div class="line">    "codeCellTheme": "tomorrow_night_eighties",</div><div class="line">    "markdownCellTheme": "tomorrow_night_eighties"</div><div class="line">  &#125;,</div><div class="line">  "css": &#123;</div><div class="line">    "className": "spacegray",</div><div class="line">    "editor": ".spacegray&#123;color:#ddd&#125;.spacegray a&#123;color:#fff&#125;.spacegray table tr:nth-child(even)&#123;background-color:#434a58&#125;.spacegray table th&#123;background:#2b3137&#125;.spacegray table td,.spacegray table th&#123;border-color:#576071&#125;.spacegray blockquote&#123;color:#fff&#125;.spacegray hr&#123;background-color:#576071&#125;.spacegray code&#123;background-color:rgba(255,255,255,.1)&#125;.spacegray svg&#123;background-color:#fff&#125;.spacegray .text-cell [style]&#123;color:#ccc!important;background-color:transparent!important&#125;.spacegray .diagram-cell .ace_editor,.spacegray .latex-cell .ace_editor,.spacegray .markdown-cell .ace_editor&#123;color:#c7c7c7;background-color:#393f4b&#125;.spacegray .markdown-cell .ace_list&#123;color:#c7c7c7&#125;.spacegray .cell.inEditMode&#123;border-color:#576071;&#125;",</div><div class="line">    /*  预览 */</div><div class="line">    /* spacygray.code&#123;background-color:rgba(0,0,0,1)&#125; 代码 `代码` 的背影颜色</div><div class="line">    .spacygray.strongObackground-color:rgba(1,1,255,.1);color:#00FF00&#125; 字体颜色是绿色，背景颜色是不透明度为0.1的颜色*/</div><div class="line">    </div><div class="line">    "preview": ".spacegray&#123;color:#ddd&#125;.spacegray a&#123;color:#fff&#125;.spacegray table tr:nth-child(even)&#123;background-color:#434a58&#125;.spacegray table th&#123;background:#2b3137&#125;.spacegray table td,.spacegray table th&#123;border-color:#576071&#125;.spacegray blockquote&#123;color:#fff&#125;.spacegray hr&#123;background-color:#576071&#125;.spacegray code&#123;background-color:rgba(0,0,0,1)&#125;.spacegray strong&#123;background-color:rgba(1,1,255,.1);color:#00FF00&#125;.spacegray svg&#123;background-color:#fff&#125;.spacegray .text-cell [style]&#123;color:#c7c7c7!important;background-color:transparent!important&#125;.spacegray #tag-field&#123;margin:8px 2px;&#125;.spacegray #tag-field .tag&#123;background:#576071;border-radius:2px;color:#ccc;&#125;",</div><div class="line">    "presentation": ".spacegray&#123;color:#ddd&#125;.spacegray a&#123;color:#fff&#125;.spacegray table tr:nth-child(even)&#123;background-color:#434a58&#125;.spacegray table th&#123;background:#2b3137&#125;.spacegray table td,.spacegray table th&#123;border-color:#576071&#125;.spacegray blockquote&#123;color:#fff&#125;.spacegray hr&#123;background-color:#576071&#125;.spacegray code&#123;background-color:rgba(255,255,255,.1)&#125;.spacegray svg&#123;background-color:#fff&#125;.spacegray .text-cell [style]&#123;color:#c7c7c7!important;background-color:transparent!important&#125;"</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p> #short cut<br>   Command + Opition + “↑”  当前cell向上移动</p>
+<p> #鼠标<br>   double click  notelist  title  单独成一个window</p>
+<h2 id="中间"><a href="#中间" class="headerlink" title="     中间"></a><center>  <mark>   中间</mark></center></h2><p><strong>   自己在 markdown上看到 center 必须在前 是不是 符合css 位置 大小 内容 动画 其它的路子？ </strong></p>
+<p>这个是在简书上看到的， 一个markdown 语法。 </p>
+<p><a href="http://www.jianshu.com/p/5e1690ffede6" target="_blank" rel="external">http://www.jianshu.com/p/5e1690ffede6</a></p>
+<p>亲测 以上语法不支持 Github  ，目前支持 Quiver. 自己用sublime 测试markdown 预览 github  加<code>&lt;mark&gt;</code>对效果没有影响，挺好. 可以放心用这个标记了</p>
+<h2 id="印象笔记互动"><a href="#印象笔记互动" class="headerlink" title="     印象笔记互动"></a><center>  <mark>   印象笔记互动</mark></center></h2><p>另外在预览页面全选，还可以用服务导入到 evernote</p>
+<p>作者：阿阿阿面<br>链接：<a href="https://www.zhihu.com/question/28886671/answer/76360988" target="_blank" rel="external">https://www.zhihu.com/question/28886671/answer/76360988</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。<br>另外在预览页面全选，还可以用服务导入到 evernote</p>
+<p><img src="https://jiexishede.github.io/source/54FF87F96C9EDC82061512F8FD8757A9.png" alt="2016-06-28 at 2.09 AM.png"></p>
+<p><strong><center>为了省时间以后还是多用OmniGraffle</center></strong></p>
+<h2 id="测试网上的流程图md-语法"><a href="#测试网上的流程图md-语法" class="headerlink" title="     测试网上的流程图md 语法"></a><center>  <mark>   测试网上的流程图md 语法</mark></center></h2><p><strong> <center> 笔记跳转 演示 以下两个是同一个地址 </center></strong></p>
+<p>###<a href="[Ajax 分页](quiver:///notes/89511372-C0F9-4419-8701-1C3FE2CE325D">个人流程图 展示</a></p>
+<p><a href="quiver:///notes/89511372-C0F9-4419-8701-1C3FE2CE325D" target="_blank" rel="external">Ajax 分页</a></p>
+<p><img src="https://jiexishede.github.io/source/7BF0CBB3C4CCE929221A79494ED9BBAE.png" alt="2016-06-28 at 5.58 AM.png"></p>
+<p><img src="https://jiexishede.github.io/source/7053A9ECF0879B81EAEC3C8F28EFDFE6.png" alt="2016-06-28 at 5.59 AM.png"></p>
+<p>##GitHub writer </p>
+<blockquote>
+<p>Symbols that should possibly not be used in the text: ‘=&gt;’ and ‘-&gt;’ and ‘:&gt;’ and ‘|’</p>
+</blockquote>
+<p><img src="https://jiexishede.github.io/source/FDF2644E264A0926A860A0DD085A2A8B.png" alt="2016-06-26 at 8.40 AM.png"></p>
+<p>定义元素阶段的语法是<br>tag=&gt;type: content:&gt;url<br>tag就是一个标签，在第二段连接元素时用<br>type是这个标签的类型，从上段内容看有6中类型，非别为：</p>
+<p>start<br>end<br>operation<br>subroutine<br>condition<br>inputoutput<br>content就是在框框中要写的内容，中英文均可，但有一点需要特别注意，就是type后的冒号与文本之间一定要有个空格，没空格会出问题。<br>url就是一个连接，与框框中的文本相绑定</p>
+<p>连接元素阶段的语法就简单多了，直接用-&gt;来连接两个元素，需要注意的是condition类型，因为他有yes和no两个分支，所以要写成</p>
+<p>c2(yes)-&gt;io-&gt;e<br>c2(no)-&gt;op2-&gt;e<br>这样的格式。 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start:&gt;http://www.google.com[blank]</div><div class="line">e=&gt;end:&gt;http://www.google.com</div><div class="line">op1=&gt;operation: My Operation</div><div class="line">sub1=&gt;subroutine: My Subroutine</div><div class="line">cond=&gt;condition: Yes</div><div class="line">or No?:&gt;http://www.google.com</div><div class="line">io=&gt;inputoutput: catch something...</div><div class="line"></div><div class="line">st-&gt;op1-&gt;cond</div><div class="line">cond(yes)-&gt;io-&gt;e</div><div class="line">cond(no)-&gt;sub1(right)-&gt;op1</div></pre></td></tr></table></figure>
+<p>从网上找了很久关于markdown语法的文章，机会微乎其微，大多所指向的都是同一个页面<a href="https://github.com/adrai/flowchart.js" target="_blank" rel="external">https://github.com/adrai/flowchart.js</a><br>这是github上的一个开源项目，里面对我有用的只有一小段文字</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start|past:&gt;http://www.google.com[blank]</div><div class="line">e=&gt;end: End:&gt;http://www.google.com</div><div class="line">op1=&gt;operation: My Operation|past</div><div class="line">op2=&gt;operation: Stuff|current</div><div class="line">sub1=&gt;subroutine: My Subroutine|invalid</div><div class="line">cond=&gt;condition: Yes </div><div class="line">or No?|approved:&gt;http://www.baidu.com</div><div class="line">c2=&gt;condition: Good idea|rejected</div><div class="line">io=&gt;inputoutput: catch something...|request</div><div class="line"></div><div class="line">st-&gt;op1(right)-\&gt;cond</div><div class="line">cond(yes, right)-\&gt;c2</div><div class="line">cond(no)-\&gt;sub1(left)-\&gt;op1</div><div class="line">c2(yes)-\&gt;io-&gt;e</div><div class="line">c2(no)-\&gt;op2-&gt;e</div><div class="line"></div><div class="line">* 1</div><div class="line">* 2</div><div class="line">* 3</div><div class="line">* 4</div><div class="line">* 5</div><div class="line">* 6</div><div class="line">* 7</div><div class="line">* 8</div><div class="line">* 9</div><div class="line">* 10</div><div class="line">* 11</div><div class="line">* 12</div><div class="line">* 13</div><div class="line">* 14</div><div class="line">* 15</div><div class="line">* 16</div><div class="line"></div><div class="line">* 1</div><div class="line">* 2</div><div class="line">* 3</div><div class="line">* 4</div><div class="line">* 5</div><div class="line">* 6</div><div class="line">* 7</div><div class="line">* 8</div><div class="line">* 9</div><div class="line">* 10</div><div class="line">* 11</div><div class="line">* 12</div><div class="line">* 13</div><div class="line">* 14</div><div class="line">* 15</div><div class="line">* 16</div></pre></td></tr></table></figure>
+<p>由于墙的原因，也没法找到什么有用的外文资料，只能总结一下此段代码里面的语法了。<br>流程图的语法大体分为两段，第一段用来定义元素，第二段用来连接元素<br>定义元素阶段的语法是<br>tag=>type: content:>url<br>tag就是一个标签，在第二段连接元素时用<br>type是这个标签的类型，从上段内容看有6中类型，非别为：</p>
+<blockquote>
+<p>start<br>end<br>operation<br>subroutine<br>condition<br>inputoutput</p>
+</blockquote>
+<p>content就是在框框中要写的内容，中英文均可，但有一点需要特别注意，就是<strong>type后的冒号与文本之间一定要有个空格</strong>，没空格会出问题。<br>url就是一个连接，与框框中的文本相绑定</p>
+<p>连接元素阶段的语法就简单多了，直接用->来连接两个元素，需要注意的是condition类型，因为他有yes和no两个分支，所以要写成</p>
+<blockquote>
+<p>c2(yes)->io->e<br>c2(no)->op2->e</p>
+</blockquote>
+<p>这样的格式。<br>下面为显示情况如果IE浏览器显示不好，可以使用chrome试试。</p>
+<p><a href="http://blog.csdn.net/aizhaoyu/article/details/44350821#" target="_blank" rel="external"></a><a href="http://blog.csdn.net/aizhaoyu/article/details/44350821#" title="分享到QQ空间" target="_blank" rel="external"></a><a href="http://blog.csdn.net/aizhaoyu/article/details/44350821#" title="分享到新浪微博" target="_blank" rel="external"></a><a href="http://blog.csdn.net/aizhaoyu/article/details/44350821#" title="分享到腾讯微博" target="_blank" rel="external"></a><a href="http://blog.csdn.net/aizhaoyu/article/details/44350821#" title="分享到人人网" target="_blank" rel="external"></a><a href="http://blog.csdn.net/aizhaoyu/article/details/44350821#" title="分享到微信" target="_blank" rel="external"></a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start|past:&gt;http://www.google.com[blank]</div><div class="line">e=&gt;end: End:&gt;http://www.google.com</div><div class="line">op1=&gt;operation: My Operation|past</div><div class="line">op2=&gt;operation: Stuff|current</div><div class="line">sub1=&gt;subroutine: My Subroutine|invalid</div><div class="line">cond=&gt;condition: Yes </div><div class="line">or No?|approved:&gt;http://www.baidu.com</div><div class="line">c2=&gt;condition: Good idea|rejected</div><div class="line">io=&gt;inputoutput: catch something...|request</div><div class="line"></div><div class="line">st-&gt;op1(right)-&gt;cond</div><div class="line">cond(yes, right)-&gt;c2</div><div class="line">cond(no)-&gt;sub1(left)-&gt;op1</div><div class="line">c2(yes)-&gt;io-&gt;e</div><div class="line">c2(no)-&gt;op2(right)-&gt;e</div></pre></td></tr></table></figure>
+<p>#<center> Markdown流程图语法</center></p>
+<p>字数272 阅读525 评论1 喜欢1</p>
+<h1 id="概述流程图的语法大致分为两部分。"><a href="#概述流程图的语法大致分为两部分。" class="headerlink" title="概述流程图的语法大致分为两部分。"></a>概述流程图的语法大致分为两部分。</h1><ul>
+<li>定义元素</li>
+<li>连接元素</li>
+</ul>
+<h1 id="定义元素"><a href="#定义元素" class="headerlink" title="定义元素"></a>定义元素</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tag=&gt;type: content:&gt;url</div></pre></td></tr></table></figure>
+<ol>
+<li>tag：标签，用于连接元素时使用</li>
+<li><p>type：该标签的类型。共有6种类型如下：</p>
+<blockquote>
+<p>start<br>end<br>operation<br>subroutine<br>condition<br>inputoutput</p>
+</blockquote>
+</li>
+<li><p>content：流程语句中放置的内容</p>
+<ul>
+<li><strong>type:与content之间一定要有一个空格</strong>，否则会出问题！</li>
+</ul>
+</li>
+</ol>
+<p>4.url：链接，与流程语句绑定</p>
+<h1 id="连接元素"><a href="#连接元素" class="headerlink" title="连接元素"></a>连接元素</h1><p>使用->符号，如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">c2(yes)-&gt;io-&gt;e</div><div class="line">c2(no)-&gt;op2-&gt;e</div></pre></td></tr></table></figure>
+<h1 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h1><p><strong>牢记tag=>type: content:>url</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start|past:&gt;http://www.baidu.com</div><div class="line">e=&gt;end: End:&gt;http://www.baidu.com</div><div class="line">op1=&gt;operation: My Operation|past</div><div class="line">op2=&gt;operation: Stuff|current</div><div class="line">sub1=&gt;subroutine: My Subroutine|invalid</div><div class="line">cond=&gt;condition: Yes or No?|approved:&gt;http://www.baidu.com</div><div class="line">c2=&gt;condition: Good idea|rejected</div><div class="line">io=&gt;inputoutput: catch something...|request</div><div class="line"></div><div class="line">st-&gt;op1(right)-&gt;cond</div><div class="line">cond(yes, right)-&gt;c2</div><div class="line">cond(no)-&gt;sub1(left)-&gt;op1</div><div class="line">c2(yes)-&gt;io-&gt;e</div><div class="line">c2(no)-&gt;op2-&gt;e</div></pre></td></tr></table></figure>
+<h2 id="switch-流程图画法"><a href="#switch-流程图画法" class="headerlink" title="     switch 流程图画法"></a><center>  <mark>   switch 流程图画法</mark></center></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div></pre></td><td class="code"><pre><div class="line"> s=&gt;start: 开始</div><div class="line"> </div><div class="line"> 输入=&gt;inputoutput: 输入一个值</div><div class="line"></div><div class="line">求余=&gt;operation: 判断除以5的余数 赋值给i</div><div class="line"></div><div class="line"></div><div class="line">判断0=&gt;condition: 余数===0？</div><div class="line">判断1=&gt;condition: 余数===1？</div><div class="line">判断2=&gt;condition: 余数===2？</div><div class="line"></div><div class="line">判断3=&gt;condition: 余数===3?</div><div class="line">判断4=&gt;condition: 余数===4?</div><div class="line"></div><div class="line"></div><div class="line">输出0=&gt;inputoutput: 输出余数0</div><div class="line"></div><div class="line">输出1=&gt;inputoutput: 输出余数1</div><div class="line"></div><div class="line">输出2=&gt;inputoutput: 输出余数2</div><div class="line"></div><div class="line">输出3=&gt;inputoutput: 输出余数3</div><div class="line"></div><div class="line">输出4=&gt;inputoutput: 输出余数4</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">函数0=&gt;subroutine: 执行函数0</div><div class="line"></div><div class="line">函数1=&gt;subroutine: 执行函数1</div><div class="line"></div><div class="line">函数2=&gt;subroutine: 执行函数2</div><div class="line"></div><div class="line">函数3=&gt;subroutine: 执行函数3|current</div><div class="line"></div><div class="line">函数4=&gt;subroutine: 执行函数4</div><div class="line"></div><div class="line"></div><div class="line">op2=&gt;operation: Stuff|current</div><div class="line"></div><div class="line"></div><div class="line">e=&gt;end: 结束</div><div class="line"></div><div class="line"></div><div class="line">s-&gt;求余</div><div class="line">求余-&gt;判断2(yes)-&gt;输出2-&gt;函数2-&gt;e</div><div class="line">判断0(no)-&gt;判断1(yes)-&gt;输出1-&gt;函数1-&gt;e</div><div class="line">判断1(no)-&gt;判断3(yes)-&gt;输出3-&gt;函数3-&gt;e</div><div class="line">判断2(no)-&gt;判断0(yes)-&gt;输出0-&gt;函数0-&gt;e</div><div class="line">判断3(no)-&gt;判断4(yes)-&gt;输出4-&gt;函数4-&gt;e</div></pre></td></tr></table></figure>
+<p>##<center> <mark>   Quiber实现技巧</mark></center></p>
+<p><img src="https://jiexishede.github.io/source/C8C96335A2A4355FCC1C74D2C09D6061.png" alt="2016-06-27 at 9.14 PM.png"></p>
+<p>st-&gt;op1(right)-&gt;cond （一个流程后面可以跟小括号+英文方向值）</p>
+<p>#<strong><em> 注意</em></strong></p>
+<p>s-&gt;写Node后台(yes)-&gt;后台<em>-&gt;测试node服务器搭建-&gt;后台?(yes)-&gt;写客户端(yes)-&gt;客户端基本页面实现-&gt;页面?(yes)-&gt;客户端jsAjax网络交互-&gt;Ajax?(yes)-&gt;客户端JS页面点操作-&gt;页面事件?<br>页面事件?(yes)-&gt;成功-&gt;实现需求<br>页面事件?(no)-&gt;客户端JS页面点操作<br>Ajax?(no)-&gt;客户端jsAjax网络交互<br>页面?(no)-&gt;客户端基本页面实现<br>后台?(no)-&gt;后台</em></p>
+<p><mark>!!!<br>流程连线 尽量不要换行不要有多余的 \s  要不然会出问题的<br>流程图不能显示完整</mark></p>
+<p><strong> 不能导出完整的流程图 需要特别注意 PDF</strong><br><img src="https://jiexishede.github.io/source/321468FEE9F653BBC280A5B143E78370.png" alt="2016-06-27 at 11.22 PM.png"></p>
+<p>流程图技巧<a href="http://chuansong.me/n/384012849440" target="_blank" rel="external">http://chuansong.me/n/384012849440</a></p>
+<p>MarkDown 是一门轻量级标记语言，深受喜欢写作和程序员的喜欢。具有良好的排版设计，专心写作；语法高亮、全键盘操作、学习成本低等等优点。过去推送的文章，我我都是在 MarkDown 上面完成，然后保存在印象笔记上面，再贴到微信公众号上，基本不用再去调整页面的排版问题。</p>
+<p>MarkDown 语法的学习成本非常的低，只需要找一篇教程学习十几分钟就可以用它来写文章了。很多人都是用 MarkDown 进行写作，所以掌握了基本的排版语法就可以了。但是 MarkDown 还有一些比较少用到的功能，比如流程图等等。因为网络上面的很多教程并没有针对流程图作很详细的讲解，所以很多人不太理解 MarkDown 流程图的语法实际含义，所以今天就来写写 MarkDown 的流程图。</p>
+<p>流程图我们经常见，专门专对流程图的工具也很多，我们甚至完全不需要用 MarkDown 画流程图，只需要用流程图软件完成之后生成图片贴上去就可以了。但是在 MarkDown 作流程图还是有好处的，第一是针对简单的流程图比较方便，直接生成；第二是可以强化做流程图的思维和思路。</p>
+<p>MarkDown 流程图语法主要由三部分组成，流程图语块定义、流程图符号声明和流程处理。下面是一个简单的流程图示例，通过示例讲解一个流程图各个组成部分。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: 开始 </div><div class="line">op1=&gt;operation: My Operation </div><div class="line">c=&gt;condition: Yes or No? </div><div class="line">e=&gt;end: 结束</div><div class="line"></div><div class="line">st-&gt;op1-&gt;c</div><div class="line">c(yes)-&gt;e</div><div class="line">c(no)-&gt;op1</div></pre></td></tr></table></figure>
+<p>生成流程图的实际效果如下：</p>
+<p>第一部分，流程图语块的定义。在 MarkDown 语法里面，可以像定义代码块一样定义一段内容为流程图（Flow chart）。具体操作就是将流程图语法内容写在 <figure class="highlight plain"><figcaption><span>和 ```里面，即为 ```flow 流程图具体语法 ```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">第二部分就是关于流程图符号的声明，流程图符号主要有六种，分别是：</div><div class="line"></div><div class="line">start，用来声明流程图的开始；</div><div class="line">end，用来声明流程图的结束；</div><div class="line">condition，用来声明流程图的判断；</div><div class="line">operation、 subroutine 和 inputoutput 分别对应的是长方形、子程序和四边形。这三个符号没有太多的特殊含义，使用最多的是长方形，简单的流程图来说没有必要使用太复杂的图形。</div><div class="line">示例当中的流程图的符号声明就是下面这部分</div><div class="line"></div><div class="line">st=&gt;start: 开始     //定义流程图的开始</div><div class="line">op1=&gt;operation: My Operation      //定义一个长方形的流程框</div><div class="line">c=&gt;condition: Yes or No?       //定义一个判断</div><div class="line">e=&gt;end: 结束          //定义流程图结束</div><div class="line">第三部分就是流程处理。所谓的流程处理就是将上面的这些符号进行串联，实现一个完成的流程图。假如整个流程图是没有分支（没有判断）的话那就是直接连接，如果有分支，那就根据 Yes 和 No 执行不同的步骤。</div><div class="line"></div><div class="line">st-&gt;op1-&gt;c  //从开始到长方形再到判断</div><div class="line">c(yes)-&gt;e  //判断为真的时候执行分支</div><div class="line">c(no)-&gt;op1 //判断为假的时候执行分支</div><div class="line">流程图基本的语法就是这些，除此之外，还可以通过（right，left，top，bottom）这四个方向在流程图处理的时候来调整流程的的方式，比如下面的语法生成的流程图方向是这样的：</div><div class="line"></div><div class="line">``` flow    </div><div class="line">st=&gt;start: 开始</div><div class="line">op1=&gt;operation: My Operation</div><div class="line">c=&gt;condition: Yes or No?</div><div class="line">e=&gt;end: 结束</div><div class="line"></div><div class="line">st(right)-&gt;op1(right)-&gt;c</div><div class="line">c(yes,right)-&gt;e</div><div class="line">c(no,top)-&gt;op1()</div></pre></td></tr></table></figure></p>
+<p>除了调整流程图的方式之外，还可以在流程图符号生面后面加上需要跳转的连接，比如:</p>
+<p>st=&gt;start: 开始:&gt;www.google.com</p>
+<p>这段代码就是可以给流程图的开始符号添加一个调转连接，但是不是说有的 MarkDown 编辑器都支持这个功能，目前来说像作业部落这些在线编辑器是支持这些功能的。</p>
+<p>MarkDown 的流程图语法相对简单，但是想要用好就需要多加练习，强化自己对于流程图的思维能力。使用 MarkDown 制作流程图，就如同程序员使用代码去构建一个个功能一样，看着那些由英文符号转化而来的图形，总能让自己心满意足。</p>
+<p><a href="http://chuansong.me/n/384012849440" target="_blank" rel="external">http://chuansong.me/n/384012849440</a></p>
+<h4 id="Markdown-低频语法手册"><a href="#Markdown-低频语法手册" class="headerlink" title="     Markdown 低频语法手册"></a><center>  <mark>   Markdown 低频语法手册</mark></center></h4><p>添加 Table<br>1 简单方式2 基本样式<br>页内跳转流程图<br>1 定义元素2 连接元素<br>序列图在表格中插入 TODO list</p>
+<ol>
+<li>添加 Table<br>1.1 简单方式<br>说明：表头默认居中、表体内容默认左对齐，第二行必需，每列中 ‘|’ 数量一个或多个，建议以整齐为主。</li>
+</ol>
+<p>Markdown 语法：</p>
+<table>
+<thead>
+<tr>
+<th>ABCD</th>
+<th>EFGH</th>
+<th>IJKL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>b</td>
+<td>c</td>
+</tr>
+<tr>
+<td>  d</td>
+<td>e</td>
+<td>f</td>
+</tr>
+<tr>
+<td>    g</td>
+<td>h</td>
+<td>i</td>
+</tr>
+</tbody>
+</table>
+<p>12345<br>效果如下：</p>
+<p>ABCD    EFGH    IJKL<br>a    b    c<br>d    e    f<br>g    h    i<br>1.2 基本样式<br>说明：基本同简单添加方式；在每行前后增加了 ‘|’（可删除），显得更加整齐；通过 ‘:’ 来控制表头、表体内容的对齐方式。</p>
+<p>Markdown 语法：</p>
+<table>
+<thead>
+<tr>
+<th>ABCD</th>
+<th style="text-align:center">EFGH</th>
+<th style="text-align:right">IJKL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td style="text-align:center">b</td>
+<td style="text-align:right">c</td>
+</tr>
+<tr>
+<td>d</td>
+<td style="text-align:center">e</td>
+<td style="text-align:right">f</td>
+</tr>
+<tr>
+<td>g</td>
+<td style="text-align:center">h</td>
+<td style="text-align:right">i</td>
+</tr>
+</tbody>
+</table>
+<p>12345<br>效果如下：</p>
+<p>ABCD    EFGH    IJKL<br>a    b    c<br>d    e    f<br>g    h    i</p>
+<ol>
+<li>页内跳转<br>定义一个锚(id)：<br><span id="jump">跳转到的地方</span><br>使用 markdown 语法：<br><a href="#jump">点击跳转</a></li>
+<li>流程图<br>流程图的语法大体分为两段：</li>
+</ol>
+<p>定义元素连接元素<br>3.1 定义元素<br>Markdown 语法：</p>
+<p>tag=&gt;type: content:&gt;url<br>1<br>说明：</p>
+<p>tag：就是一个标签名，在第二段连接元素时用。type：指定这个标签的类型，主要有以下 6 种类型。<br>start：开始end：结束operation：操作subroutine：分支condition：条件inputoutput：输入输出<br>content：就是要有框中显示的内容，中英文均可。url：就是一个超链接，与 content 相绑定。在 url 后加上 “[blank]” 可在新标签页打开地址。“=&gt;”：用于连接 tag 和 type，两侧有无空格均可。“:&gt;”：用于连接 content 和 url，两侧有无空格均可。“: “：用于连接 type 和 content，注意：该连接符与 content 之间必须有一个空格，否则会出错。<br>3.2 连接元素<br>连接元素的语法相对简单，直接使用 “-&gt;” 来连接第一段时定义的 tag 标签即可，注意：两侧不能有空格，否则会出错。</p>
+<p>注意：对于 condition 类型，因为它有两个分支，所以要对两个分支分别进行连接。</p>
+<p>condition1(yes)-&gt;io-&gt;end<br>conditioin2(no)-&gt;operation-&gt;end<br>12<br>示例1：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start:&gt;https://www.baidu.com</div><div class="line">io=&gt;inputoutput: verification</div><div class="line">op=&gt;operation: Your Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line">sub=&gt;subroutine: Your Subroutine</div><div class="line">e=&gt;end</div><div class="line"></div><div class="line">st-&gt;io-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;sub-&gt;io</div></pre></td></tr></table></figure>
+</code></pre><p>123456789101112<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0StartverificationYour OperationYes or No?EndYour Subroutineyesno<br>示例2：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start|past:&gt;http://www.google.com[blank]</div><div class="line">e=&gt;end: End:&gt;http://www.google.com</div><div class="line">op1=&gt;operation: My Operation|past</div><div class="line">op2=&gt;operation: Stuff|current</div><div class="line">sub1=&gt;subroutine: My Subroutine|invalid</div><div class="line">cond=&gt;condition: Yes or No?|approved:&gt;http://www.google.com    </div><div class="line">c2=&gt;condition: Good idea|rejected</div><div class="line">io=&gt;inputoutput: catch something...|request</div><div class="line"></div><div class="line">st-&gt;op1(right)-&gt;cond</div><div class="line">cond(yes, right)-&gt;c2</div><div class="line">cond(no)-&gt;sub1(left)-&gt;op1</div><div class="line">c2(yes)-&gt;io-&gt;e</div><div class="line">c2(no)-&gt;op2-&gt;e</div></pre></td></tr></table></figure>
+</code></pre><p>12345678910111213141516<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0StartMy OperationYes or No?Good ideacatch something…EndStuffMy Subroutineyesnoyesno</p>
+<ol>
+<li>序列图<br>下图显示了序列图的简要语法：</li>
+</ol>
+<p>相关语义参考下面示例。</p>
+<p>示例1：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Alice-&gt;Bob: Hello Bob, how are you?</div><div class="line">Note right of Bob: Bob thinks</div><div class="line">Bob--&gt;Alice: I am good thanks!</div></pre></td></tr></table></figure>
+</code></pre><p>12345<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0AliceAliceBobBobHello Bob, how are you?Bob thinksI am good thanks!<br>示例2：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Title: Here is a title</div><div class="line">A-&gt;B: Normal line</div><div class="line">B--&gt;C: Dashed line</div><div class="line">C-&gt;&gt;D: Open arrow</div><div class="line">D--&gt;&gt;A: Dashed open arrow</div></pre></td></tr></table></figure>
+</code></pre><p>1234567<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0Here is a titleAABBCCDDNormal lineDashed lineOpen arrowDashed open arrow</p>
+<ol>
+<li><p>在表格中插入 “|”<br>&#124; 或者 &#166;</p>
+</li>
+<li><p>TODO list<br>在列表的基础上增加 <a href="中间有空格"> </a> 或 [x]，分别代表未完成和已完成。（并不是所有的 MD 解析器都支持，当前的 csdn 就不支持）</p>
+</li>
+</ol>
+<ul>
+<li>[ ] : 未完成</li>
+<li>[x] : 已完成<br>12<br>效果：</li>
+</ul>
+<p>[ ] : 未完成[x] : 已完成</p>
+<p>###GitHub  项目 支持</p>
+<p><strong>流程图 </strong></p>
+<p><strong><a href="https://github.com/adrai/flowchart.js" target="_blank" rel="external">https://github.com/adrai/flowchart.js</a></strong></p>
+<p>Usage<br>On your page you need to include raphael like so:</p>
+<p><script src="raphael-min.js"></script><br>or</p>
+<p>npm install flowchart.js<br>and then</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"diagram"</span>&gt;</span>Diagram will be placed here<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"flowchart.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line">var diagram = flowchart.parse('st=&gt;start: Start:&gt;http://www.google.com[blank]\n' +</div><div class="line">                                'e=&gt;end:&gt;http://www.google.com\n' +</div><div class="line">                                'op1=&gt;operation: My Operation\n' +</div><div class="line">                                'sub1=&gt;subroutine: My Subroutine\n' +</div><div class="line">                                'cond=&gt;condition: Yes \n' +</div><div class="line">                                'or No?\n:&gt;http://www.google.com' +</div><div class="line">                                'io=&gt;inputoutput|request: catch something...\n' +</div><div class="line">                                '' +</div><div class="line">                                'st-&gt;op1-&gt;cond\n' +</div><div class="line">                                'cond(yes)-&gt;io-&gt;e\n' + // conditions can also be redirected like cond(yes, bottom) or cond(yes, right)</div><div class="line">                                'cond(no)-&gt;sub1(right)-&gt;op1');// the other symbols too...</div><div class="line">  diagram.drawSVG('diagram');</div><div class="line"></div><div class="line">  // you can also try to pass options:</div><div class="line"></div><div class="line">  diagram.drawSVG('diagram', &#123;</div><div class="line">                                'x': 0,</div><div class="line">                                'y': 0,</div><div class="line">                                'line-width': 3,</div><div class="line">                                'line-length': 50,</div><div class="line">                                'text-margin': 10,</div><div class="line">                                'font-size': 14,</div><div class="line">                                'font-color': 'black',</div><div class="line">                                'line-color': 'black',</div><div class="line">                                'element-color': 'black',</div><div class="line">                                'fill': 'white',</div><div class="line">                                'yes-text': 'yes',</div><div class="line">                                'no-text': 'no',</div><div class="line">                                'arrow-end': 'block',</div><div class="line">                                'scale': 1,</div><div class="line">                                // style symbol types</div><div class="line">                                'symbols': &#123;</div><div class="line">                                    'start': &#123;</div><div class="line">                                      'font-color': 'red',</div><div class="line">                                      'element-color': 'green',</div><div class="line">                                      'fill': 'yellow'</div><div class="line">                                    &#125;,</div><div class="line">                                    'end':&#123;</div><div class="line">                                        'class': 'end-element'</div><div class="line">                                    &#125;</div><div class="line">                                &#125;,</div><div class="line">                                // even flowstate support ;-)</div><div class="line">                                'flowstate' : &#123;</div><div class="line">                                    // 'past' : &#123; 'fill' : '#CCCCCC', 'font-size' : 12&#125;,</div><div class="line">                                    // 'current' : &#123;'fill' : 'yellow', 'font-color' : 'red', 'font-weight' : 'bold'&#125;,</div><div class="line">                                    // 'future' : &#123; 'fill' : '#FFFF99'&#125;,</div><div class="line">                                    'request' : &#123; 'fill' : 'blue'&#125;//,</div><div class="line">                                    // 'invalid': &#123;'fill' : '#444444'&#125;,</div><div class="line">                                    // 'approved' : &#123; 'fill' : '#58C4A3', 'font-size' : 12, 'yes-text' : 'APPROVED', 'no-text' : 'n/a' &#125;,</div><div class="line">                                    // 'rejected' : &#123; 'fill' : '#C45879', 'font-size' : 12, 'yes-text' : 'n/a', 'no-text' : 'REJECTED' &#125;</div><div class="line">                                  &#125;</div><div class="line">                              &#125;);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="Advice"><a href="#Advice" class="headerlink" title="Advice"></a><strong>Advice</strong></h2><p>Symbols that should possibly not be used in the text: ‘=&gt;’ and ‘-&gt;’ and ‘:&gt;’ and ‘|’</p>
+<p>##theme  </p>
+<h3 id="自定义theme路径"><a href="#自定义theme路径" class="headerlink" title="自定义theme路径"></a><code>自定义theme路径</code></h3><p>/Users/lilonglong/Library/Containers/com.happenapps.Quiver/Data/Library/Application Support/Quiver/Themes</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Makedown/" rel="tag">#Makedown</a>
+          
+            <a href="/tags/Quiver/" rel="tag">#Quiver</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2014/12/22/Makedown/" rel="prev" title="Make down">
+                Make down <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="李龙龙" />
+          <p class="site-author-name" itemprop="name">李龙龙</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#quiver"><span class="nav-number">1.</span> <span class="nav-text">quiver</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有零散的笔记，零时笔记，都放入，-Inbox-里面。"><span class="nav-number">2.</span> <span class="nav-text">有零散的笔记，零时笔记，都放入，  Inbox 里面。</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#markdown-syntax"><span class="nav-number">2.1.</span> <span class="nav-text">markdown syntax</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#中间"><span class="nav-number">3.</span> <span class="nav-text">     中间</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#印象笔记互动"><span class="nav-number">4.</span> <span class="nav-text">     印象笔记互动</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测试网上的流程图md-语法"><span class="nav-number">5.</span> <span class="nav-text">     测试网上的流程图md 语法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#概述流程图的语法大致分为两部分。"><span class="nav-number"></span> <span class="nav-text">概述流程图的语法大致分为两部分。</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#定义元素"><span class="nav-number"></span> <span class="nav-text">定义元素</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#连接元素"><span class="nav-number"></span> <span class="nav-text">连接元素</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#实例"><span class="nav-number"></span> <span class="nav-text">实例</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#switch-流程图画法"><span class="nav-number">1.</span> <span class="nav-text">     switch 流程图画法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Markdown-低频语法手册"><span class="nav-number">1.0.1.</span> <span class="nav-text">     Markdown 低频语法手册</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Advice"><span class="nav-number">2.</span> <span class="nav-text">Advice</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#自定义theme路径"><span class="nav-number">2.1.</span> <span class="nav-text">自定义theme路径</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">李龙龙</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
