@@ -21,8 +21,8 @@ iframe {
 	margin-top: -235px;
 }
 .gg {
-	width: 100%;
-	height: auto;
+	/*width: 100%;
+	height: auto;*/
 }
 </style>
 <script type="text/javascript">
@@ -36,6 +36,13 @@ iframe {
 	// 		}
 	// 	}
 	// setInterval("redirect()", 1000);
+
+	/// iframe 
+
+	window.onload  = function loadFrame(argument) {
+		var iframeGG = document.getElementById('gg');
+		iframeGG.src = "http://yibo.iyiyun.com/Home/Distribute/ad404/key/1122458";
+	}
 </script>
 </head>
 
@@ -45,7 +52,7 @@ iframe {
     <div class="mask"></div>
 </div>
 
-<iframe  class="gg" scrolling='no' frameborder='0' src='http://yibo.iyiyun.com/Home/Distribute/ad404/key/1122458' width='654' height='470' style='display:block;'></iframe>
+<iframe  id="gg" class="gg" scrolling='no' frameborder='0' src='http://yibo.iyiyun.com/Home/Distribute/ad404/key/1122458' width='654' height='470' style='display:block;'></iframe>
 
 <div class="b">
 		<!-- <img src="http://7xowaa.com1.z0.glb.clouddn.com/404.png" class="center"> -->
@@ -61,4 +68,5 @@ iframe {
 	</div>
 
 </body>
+
 </html>
