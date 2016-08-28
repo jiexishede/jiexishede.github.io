@@ -136,7 +136,7 @@ gi">
 <meta property="og:image" content="http://www.baidu.com/img/bdlogo.gif">
 <meta property="og:image" content="Https://jiexishede.github.io/source/C5BA83021051FEAB9DA09D7F7FDBA49D.png">
 <meta property="og:image" content="Https://jiexishede.github.io/source/CB34825C64F9FFF512A197581D6746CA.png">
-<meta property="og:updated_time" content="2016-08-28T07:51:23.000Z">
+<meta property="og:updated_time" content="2016-08-28T12:21:06.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="markdown 语法">
 <meta name="twitter:description" content="Github中markdown语法支持和本地Quiver&amp;amp;&amp;amp;Marked2软件markdown的区别标题空格
@@ -892,6 +892,112 @@ gi">
 <p>但是这个网页每次都打开<strong>奇慢</strong>。。所以我整理到了本repo中，大家可以直接在此查看<a href="./emoji.md">emoji</a>。</p>
 <hr>
 <p><a href="https://github.com/guodongxiaren/README/blob/master/README.md" target="_blank" rel="external">https://github.com/guodongxiaren/README/blob/master/README.md</a></p>
+<h1><center><mark>Markdown 低频语法手册</mark></center></h1>
+
+
+<p>添加 Table<br>1 简单方式2 基本样式<br>页内跳转流程图<br>1 定义元素2 连接元素<br>序列图在表格中插入 TODO list</p>
+<ol>
+<li>添加 Table<br>1.1 简单方式<br>说明：表头默认居中、表体内容默认左对齐，第二行必需，每列中 ‘|’ 数量一个或多个，建议以整齐为主。</li>
+</ol>
+<p>Markdown 语法：</p>
+<table>
+<thead>
+<tr>
+<th>ABCD</th>
+<th>EFGH</th>
+<th>IJKL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>b</td>
+<td>c</td>
+</tr>
+<tr>
+<td>  d</td>
+<td>e</td>
+<td>f</td>
+</tr>
+<tr>
+<td>    g</td>
+<td>h</td>
+<td>i</td>
+</tr>
+</tbody>
+</table>
+<p>12345<br>效果如下：</p>
+<p>ABCD    EFGH    IJKL<br>a    b    c<br>d    e    f<br>g    h    i<br>1.2 基本样式<br>说明：基本同简单添加方式；在每行前后增加了 ‘|’（可删除），显得更加整齐；通过 ‘:’ 来控制表头、表体内容的对齐方式。</p>
+<p>Markdown 语法：</p>
+<table>
+<thead>
+<tr>
+<th>ABCD</th>
+<th style="text-align:center">EFGH</th>
+<th style="text-align:right">IJKL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td style="text-align:center">b</td>
+<td style="text-align:right">c</td>
+</tr>
+<tr>
+<td>d</td>
+<td style="text-align:center">e</td>
+<td style="text-align:right">f</td>
+</tr>
+<tr>
+<td>g</td>
+<td style="text-align:center">h</td>
+<td style="text-align:right">i</td>
+</tr>
+</tbody>
+</table>
+<p>12345<br>效果如下：</p>
+<p>ABCD    EFGH    IJKL<br>a    b    c<br>d    e    f<br>g    h    i</p>
+<ol>
+<li>页内跳转<br>定义一个锚(id)：<br><span id="jump">跳转到的地方</span><br>使用 markdown 语法：<br><a href="#jump">点击跳转</a></li>
+<li>流程图<br>流程图的语法大体分为两段：</li>
+</ol>
+<p>定义元素连接元素<br>3.1 定义元素<br>Markdown 语法：</p>
+<p>tag=&gt;type: content:&gt;url<br>1<br>说明：</p>
+<p>tag：就是一个标签名，在第二段连接元素时用。type：指定这个标签的类型，主要有以下 6 种类型。<br>start：开始end：结束operation：操作subroutine：分支condition：条件inputoutput：输入输出<br>content：就是要有框中显示的内容，中英文均可。url：就是一个超链接，与 content 相绑定。在 url 后加上 “[blank]” 可在新标签页打开地址。“=&gt;”：用于连接 tag 和 type，两侧有无空格均可。“:&gt;”：用于连接 content 和 url，两侧有无空格均可。“: “：用于连接 type 和 content，注意：该连接符与 content 之间必须有一个空格，否则会出错。<br>3.2 连接元素<br>连接元素的语法相对简单，直接使用 “-&gt;” 来连接第一段时定义的 tag 标签即可，注意：两侧不能有空格，否则会出错。</p>
+<p>注意：对于 condition 类型，因为它有两个分支，所以要对两个分支分别进行连接。</p>
+<p>condition1(yes)-&gt;io-&gt;end<br>conditioin2(no)-&gt;operation-&gt;end<br>12<br>示例1：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start:&gt;https://www.baidu.com</div><div class="line">io=&gt;inputoutput: verification</div><div class="line">op=&gt;operation: Your Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line">sub=&gt;subroutine: Your Subroutine</div><div class="line">e=&gt;end</div><div class="line"></div><div class="line">st-&gt;io-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;sub-&gt;io</div></pre></td></tr></table></figure>
+</code></pre><p>123456789101112<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0StartverificationYour OperationYes or No?EndYour Subroutineyesno<br>示例2：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start|past:&gt;http://www.google.com[blank]</div><div class="line">e=&gt;end: End:&gt;http://www.google.com</div><div class="line">op1=&gt;operation: My Operation|past</div><div class="line">op2=&gt;operation: Stuff|current</div><div class="line">sub1=&gt;subroutine: My Subroutine|invalid</div><div class="line">cond=&gt;condition: Yes or No?|approved:&gt;http://www.google.com    </div><div class="line">c2=&gt;condition: Good idea|rejected</div><div class="line">io=&gt;inputoutput: catch something...|request</div><div class="line"></div><div class="line">st-&gt;op1(right)-&gt;cond</div><div class="line">cond(yes, right)-&gt;c2</div><div class="line">cond(no)-&gt;sub1(left)-&gt;op1</div><div class="line">c2(yes)-&gt;io-&gt;e</div><div class="line">c2(no)-&gt;op2-&gt;e</div></pre></td></tr></table></figure>
+</code></pre><p>12345678910111213141516<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0StartMy OperationYes or No?Good ideacatch something…EndStuffMy Subroutineyesnoyesno</p>
+<ol>
+<li>序列图<br>下图显示了序列图的简要语法：</li>
+</ol>
+<p>相关语义参考下面示例。</p>
+<p>示例1：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Alice-&gt;Bob: Hello Bob, how are you?</div><div class="line">Note right of Bob: Bob thinks</div><div class="line">Bob--&gt;Alice: I am good thanks!</div></pre></td></tr></table></figure>
+</code></pre><p>12345<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0AliceAliceBobBobHello Bob, how are you?Bob thinksI am good thanks!<br>示例2：</p>
+<p>Markdown 语法：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Title: Here is a title</div><div class="line">A-&gt;B: Normal line</div><div class="line">B--&gt;C: Dashed line</div><div class="line">C-&gt;&gt;D: Open arrow</div><div class="line">D--&gt;&gt;A: Dashed open arrow</div></pre></td></tr></table></figure>
+</code></pre><p>1234567<br>显示效果：</p>
+<p>Created with Raphaël 2.1.0Here is a titleAABBCCDDNormal lineDashed lineOpen arrowDashed open arrow</p>
+<ol>
+<li><p>在表格中插入 “|”<br>&#124; 或者 &#166;</p>
+</li>
+<li><p>TODO list<br>在列表的基础上增加 <a href="中间有空格"> </a> 或 [x]，分别代表未完成和已完成。（并不是所有的 MD 解析器都支持，当前的 csdn 就不支持）</p>
+</li>
+</ol>
+<ul>
+<li>[ ] : 未完成</li>
+<li>[x] : 已完成<br>12<br>效果：</li>
+</ul>
+<p>[ ] : 未完成[x] : 已完成</p>
 <h1>其它</h1> 
 
 
@@ -1042,7 +1148,7 @@ gi">
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1099,7 +1205,7 @@ gi">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github中markdown语法支持和本地Quiver-amp-amp-Marked2软件markdown的区别"><span class="nav-number">1.</span> <span class="nav-text">Github中markdown语法支持和本地Quiver&&Marked2软件markdown的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.1.</span> <span class="nav-text">标题空格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.2.</span> <span class="nav-text">锚点跳转</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.3.</span> <span class="nav-text">高亮居中</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">果冻GitHubMarkdown</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#README"><span class="nav-number">2.1.</span> <span class="nav-text">README</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#横线"><span class="nav-number">2.2.</span> <span class="nav-text">横线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">2.3.</span> <span class="nav-text">*</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">2.4.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文本"><span class="nav-number">2.5.</span> <span class="nav-text">文本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图片"><span class="nav-number">2.6.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#链接"><span class="nav-number">2.7.</span> <span class="nav-text">链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#link"><span class="nav-number">2.8.</span> <span class="nav-text">link</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#selectBox"><span class="nav-number">2.9.</span> <span class="nav-text">selectBox</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码高亮"><span class="nav-number">2.10.</span> <span class="nav-text">代码高亮</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表格"><span class="nav-number">2.11.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表情"><span class="nav-number">2.12.</span> <span class="nav-text">表情</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">3.</span> <span class="nav-text">其它</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">3.1.</span> <span class="nav-text">#使用注意</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">3.2.</span> <span class="nav-text">>的使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">3.3.</span> <span class="nav-text">markdown中的空格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">3.4.</span> <span class="nav-text"> markdown通用写法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">3.5.</span> <span class="nav-text">代码高亮的写法</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Github中markdown语法支持和本地Quiver-amp-amp-Marked2软件markdown的区别"><span class="nav-number">1.</span> <span class="nav-text">Github中markdown语法支持和本地Quiver&&Marked2软件markdown的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.1.</span> <span class="nav-text">标题空格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.2.</span> <span class="nav-text">锚点跳转</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.3.</span> <span class="nav-text">高亮居中</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">果冻GitHubMarkdown</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#README"><span class="nav-number">2.1.</span> <span class="nav-text">README</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#横线"><span class="nav-number">2.2.</span> <span class="nav-text">横线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">2.3.</span> <span class="nav-text">*</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">2.4.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文本"><span class="nav-number">2.5.</span> <span class="nav-text">文本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图片"><span class="nav-number">2.6.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#链接"><span class="nav-number">2.7.</span> <span class="nav-text">链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#link"><span class="nav-number">2.8.</span> <span class="nav-text">link</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#selectBox"><span class="nav-number">2.9.</span> <span class="nav-text">selectBox</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码高亮"><span class="nav-number">2.10.</span> <span class="nav-text">代码高亮</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表格"><span class="nav-number">2.11.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表情"><span class="nav-number">2.12.</span> <span class="nav-text">表情</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">3.</span> <span class="nav-text">Markdown 低频语法手册</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">4.</span> <span class="nav-text">其它</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">4.1.</span> <span class="nav-text">#使用注意</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">4.2.</span> <span class="nav-text">>的使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">4.3.</span> <span class="nav-text">markdown中的空格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">4.4.</span> <span class="nav-text"> markdown通用写法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">4.5.</span> <span class="nav-text">代码高亮的写法</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
